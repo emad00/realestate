@@ -1,0 +1,38 @@
+.card {
+    margin-left: 90px;
+    margin-top: 30px;
+    box-shadow: black;
+    animation: normal;
+    animation-delay: 2.5s;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.card-img-top {
+    width: 15.9rem;
+    height: 175px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card .card-body a {
+    float: right;
+    text-align: center;
+    background-color: transparent;
+    border-radius: 70px;
+    border-color: #1abc9c;
+    color: #1abc9c;
+    animation-delay: 10s;
+    animation: alternate;
+}
+
+.card .card-body a:hover {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.card-logo {
+    width: 15px;
+}
